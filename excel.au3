@@ -5,7 +5,7 @@
 ; connect to excel and open new instance
 Local $oExcel= _Excel_Open()
 
-;Local $sWorkbook = "C:\Users\HOME\Desktop\dev\bots\Book1.xlsx"
+;Local $sWorkbook = "C:\THE\PATH\LOCATION\Book1.xlsx"
 
 ; create new workbook
 Local $oWorkbook = _Excel_BookNew($oExcel)
@@ -26,4 +26,4 @@ sleep(1000)
 ; change focus to target window
 WinActivate("windowtitle")
 
-msgbox(0, "joel's script", "all done at: " & _NowTime())
+msgbox(0, "the script", "all done at: " & _NowTime())
