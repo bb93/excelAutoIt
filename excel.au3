@@ -27,3 +27,5 @@ sleep(1000)
 WinActivate("windowtitle")
 
 msgbox(0, "the script", "all done at: " & _NowTime())
+
+; Aut2exe.exe /in C:\Users\HOME\Desktop\dev\bots\excelMacro.au3 /out C:\Users\HOME\Desktop\dev\bots\excelMacro.exe /x64
